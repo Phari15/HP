@@ -1,0 +1,125 @@
+.logo img {
+    width: 175px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 42px;
+}
+
+.section span img {
+    width: 85px;
+    margin: 0 24px;
+}
+
+.first p {
+    font-size: 24px;
+    text-align: center;
+    width: 60vw;
+
+}
+
+.butt {
+    background-color: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.butt a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.edit {
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+section .small {
+    font-size: 13px;
+}
+
+.second {
+    max-width: 58vw;
+    margin: auto;
+}
+
+.edit img {
+    width: 60px;
+}
+
+.item {
+    padding: 23px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 23px;
+    margin-top: 2.75%;
+}
+.grid p{
+    font-size: 9px;
+}
+
+@media screen and (max-width: 1145) {
+    .grid {
+        grid-template-columns: 1fr;
+        background-color: rgb(7, 7, 7);
+    }
+}
